@@ -33,7 +33,7 @@ export default function Leads() {
 
   return (
     <div className="Leads">
-      <h2 className="leaders">Executive Boards</h2>
+      <h2 className="leaders">EXECUTIVE BOARDS</h2>
       <img src={next_icon} alt="" className="next_btn" onClick={slideForward} />
       <img src={back_icons} alt="" className="back_btn" onClick={slideBackward} />
       <div className="slider">
