@@ -10,8 +10,8 @@ export default {
         montserrat: ["Montserrat","sans-serif"],
     },  
     colors: {
-      primary: "#00C2FF",
-      secondary: "#DD0BFF",
+      primary: "#0000CB",
+      secondary: "#FF4500",
       dark: "#111111",
 
     },
