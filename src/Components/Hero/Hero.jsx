@@ -1,6 +1,6 @@
 import React from "react";
 import Robo from "../../assets/robo1.png";
-import { BiPlayCircle } from "react-icons/bi";
+
 
 const Hero = () => {
   return <>

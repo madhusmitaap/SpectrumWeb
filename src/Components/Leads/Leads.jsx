@@ -43,7 +43,7 @@ export default function Leads() {
               <div className="user-info">
                 <img src={user_1} alt="" />
                 <div>
-                  <h3>Sweta Padma Mahapatra</h3>
+                  <h3><b>Sweta Padma Mahapatra</b></h3>
                   <span>
                     Convenor
                   </span>
@@ -58,7 +58,7 @@ export default function Leads() {
               <div className="user-info">
                 <img src={user_1} alt="" />
                 <div>
-                  <h3>Smruti Somyak Pradhan</h3>
+                  <h3><b>Smruti Somyak Pradhan</b></h3>
                   <span>
                     Coordinator
                   </span>
@@ -73,7 +73,7 @@ export default function Leads() {
               <div className="user-info">
                 <img src={user_1} alt="" />
                 <div>
-                  <h3>J R Prasad</h3>
+                  <h3><b>J R Prasad</b></h3>
                   <span>
                     Coordinator
                   </span>
@@ -88,7 +88,7 @@ export default function Leads() {
               <div className="user-info">
                 <img src={user_1} alt="" />
                 <div>
-                  <h3>Sruti Nayak</h3>
+                  <h3><b>Sruti Nayak</b></h3>
                   <span>
                     Software Lead
                   </span>
@@ -103,7 +103,7 @@ export default function Leads() {
               <div className="user-info">
                 <img src={user_1} alt="" />
                 <div>
-                  <h3>Sarans Mishra</h3>
+                  <h3><b>Sarans Mishra</b></h3>
                   <span>
                     Software Lead
                   </span>
@@ -118,7 +118,7 @@ export default function Leads() {
               <div className="user-info">
                 <img src={user_1} alt="" />
                 <div>
-                  <h3>Debabrata Sahoo</h3>
+                  <h3><b>Debabrata Sahoo</b></h3>
                   <span>
                     Design Lead
                   </span>
@@ -133,7 +133,7 @@ export default function Leads() {
               <div className="user-info">
                 <img src={user_1} alt="" />
                 <div>
-                  <h3>Atrayee Jha</h3>
+                  <h3><b>Atrayee Jha</b></h3>
                   <span>
                     Hardware Lead
                   </span>
@@ -148,7 +148,7 @@ export default function Leads() {
               <div className="user-info">
                 <img src={user_1} alt="" />
                 <div>
-                  <h3>Mirza Matin Baig</h3>
+                  <h3><b>Mirza Matin Baig</b></h3>
                   <span>
                     External Affairs
                   </span>
@@ -163,7 +163,7 @@ export default function Leads() {
               <div className="user-info">
                 <img src={user_1} alt="" />
                 <div>
-                  <h3>Spandan Das</h3>
+                  <h3><b>Spandan Das</b></h3>
                   <span>
                     Public Relations
                   </span>
