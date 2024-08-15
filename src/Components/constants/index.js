@@ -1,4 +1,4 @@
-import SpaceCity5 from "../assets/SpaceCity5.jpeg";
+import SpaceCity5 from "../../assets/SpaceCity5.jpeg";
 
 
 export const ServiceData = [
