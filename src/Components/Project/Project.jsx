@@ -34,7 +34,15 @@ const project = () => {
               </a>
             </div>
 
-            {/* <div className="project1">
+             <div className="project1">
+              <img src={Project_1} alt="" />
+              <p className="project-detail">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, quaerat.</p>
+              <a className="a-link" href="https://github.com/dashboard">
+              <button className="btn">Visit</button>
+              </a>
+            </div>
+
+            {/*<div className="project1">
               <img src={Project_1} alt="" />
               <p className="project-detail">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, quaerat.</p>
               <a className="a-link" href="https://github.com/dashboard">
@@ -48,21 +56,14 @@ const project = () => {
               <a className="a-link" href="https://github.com/dashboard">
               <button className="btn">Visit</button>
               </a>
-            </div>
-
-            <div className="project1">
-              <img src={Project_1} alt="" />
-              <p className="project-detail">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, quaerat.</p>
-              <a className="a-link" href="https://github.com/dashboard">
-              <button className="btn">Visit</button>
-              </a>
-            </div> */}
+            </div> 
+            */}
           </div>
-          <div className="show">
-          <div className="project-showmore">
-            <p>Show More</p>
-            <img src={icon} alt="" />
-            </div>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <div className="flex gap-6">
+          <button className="primary-btn" ><b>Show More</b></button>
+          
+          </div>
           </div>
         </div>
       
