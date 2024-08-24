@@ -1,5 +1,7 @@
 import React from "react";
 import "./Leads.css";
+import { SiLinkedin} from "react-icons/si"
+import { SiInstagram} from "react-icons/si"
 import {useRef} from 'react' ;
 import next_icon from "../../assets/next_icon.png";
 import back_icons from "../../assets/back_icon.png";
@@ -42,6 +44,18 @@ export default function Leads() {
             <div className="slide">
               <div className="user-info">
                 <img src={user_1} alt="" />
+                <div className="flex flex-wrap items-center justify-end gap-4">
+                <div className=   "p-1 ">
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                < SiLinkedin className="text-2xl text-green-500"/>
+                </a>
+            </div>
+            <div className=" p-1">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                < SiInstagram className="text-2xl text-green-500 "/>
+                </a>
+            </div>
+            </div>
                 <div>
                   <h3><b>Sweta Padma Mahapatra</b></h3>
                   <span>
@@ -57,6 +71,18 @@ export default function Leads() {
             <div className="slide">
               <div className="user-info">
                 <img src={user_1} alt="" />
+                <div className="flex flex-wrap items-center justify-end gap-4">
+                <div className=   "p-1 ">
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                < SiLinkedin className="text-2xl text-green-500"/>
+                </a>
+            </div>
+            <div className=" p-1">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                < SiInstagram className="text-2xl text-green-500 "/>
+                </a>
+            </div>
+            </div>
                 <div>
                   <h3><b>Smruti Somyak Pradhan</b></h3>
                   <span>
@@ -72,6 +98,18 @@ export default function Leads() {
             <div className="slide">
               <div className="user-info">
                 <img src={user_1} alt="" />
+                <div className="flex flex-wrap items-center justify-end gap-4">
+                <div className=   "p-1 ">
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                < SiLinkedin className="text-2xl text-green-500"/>
+                </a>
+            </div>
+            <div className=" p-1">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                < SiInstagram className="text-2xl text-green-500 "/>
+                </a>
+            </div>
+            </div>
                 <div>
                   <h3><b>J R Prasad</b></h3>
                   <span>
@@ -87,6 +125,18 @@ export default function Leads() {
             <div className="slide">
               <div className="user-info">
                 <img src={user_1} alt="" />
+                <div className="flex flex-wrap items-center justify-end gap-4">
+                <div className=   "p-1 ">
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                < SiLinkedin className="text-2xl text-green-500"/>
+                </a>
+            </div>
+            <div className=" p-1">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                < SiInstagram className="text-2xl text-green-500 "/>
+                </a>
+            </div>
+            </div>
                 <div>
                   <h3><b>Sruti Nayak</b></h3>
                   <span>
@@ -102,6 +152,18 @@ export default function Leads() {
             <div className="slide">
               <div className="user-info">
                 <img src={user_1} alt="" />
+                <div className="flex flex-wrap items-center justify-end gap-4">
+                <div className=   "p-1 ">
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                < SiLinkedin className="text-2xl text-green-500"/>
+                </a>
+            </div>
+            <div className=" p-1">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                < SiInstagram className="text-2xl text-green-500 "/>
+                </a>
+            </div>
+            </div>
                 <div>
                   <h3><b>Sarans Mishra</b></h3>
                   <span>
@@ -117,6 +179,18 @@ export default function Leads() {
             <div className="slide">
               <div className="user-info">
                 <img src={user_1} alt="" />
+                <div className="flex flex-wrap items-center justify-end gap-4">
+                <div className=   "p-1 ">
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                < SiLinkedin className="text-2xl text-green-500"/>
+                </a>
+            </div>
+            <div className=" p-1">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                < SiInstagram className="text-2xl text-green-500 "/>
+                </a>
+            </div>
+            </div>
                 <div>
                   <h3><b>Debabrata Sahoo</b></h3>
                   <span>
@@ -132,6 +206,18 @@ export default function Leads() {
             <div className="slide">
               <div className="user-info">
                 <img src={user_1} alt="" />
+                <div className="flex flex-wrap items-center justify-end gap-4">
+                <div className=   "p-1 ">
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                < SiLinkedin className="text-2xl text-green-500"/>
+                </a>
+            </div>
+            <div className=" p-1">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                < SiInstagram className="text-2xl text-green-500 "/>
+                </a>
+            </div>
+            </div>
                 <div>
                   <h3><b>Atrayee Jha</b></h3>
                   <span>
@@ -147,6 +233,18 @@ export default function Leads() {
             <div className="slide">
               <div className="user-info">
                 <img src={user_1} alt="" />
+                <div className="flex flex-wrap items-center justify-end gap-4">
+                <div className=   "p-1 ">
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                < SiLinkedin className="text-2xl text-green-500"/>
+                </a>
+            </div>
+            <div className=" p-1">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                < SiInstagram className="text-2xl text-green-500 "/>
+                </a>
+            </div>
+            </div>
                 <div>
                   <h3><b>Mirza Matin Baig</b></h3>
                   <span>
@@ -162,6 +260,18 @@ export default function Leads() {
             <div className="slide">
               <div className="user-info">
                 <img src={user_1} alt="" />
+                <div className="flex flex-wrap items-center justify-end gap-4">
+                <div className=   "p-1 ">
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                < SiLinkedin className="text-2xl text-green-500"/>
+                </a>
+            </div>
+            <div className=" p-1">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                < SiInstagram className="text-2xl text-green-500 "/>
+                </a>
+            </div>
+            </div>
                 <div>
                   <h3><b>Spandan Das</b></h3>
                   <span>

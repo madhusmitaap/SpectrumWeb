@@ -65,8 +65,130 @@
     color: #ffffff;
 }
 .user-info span{
-/* responsive */
+
 
     color: #ffffff;
 }
+/* responsive */
 
+@media (max-width: 1024px) {
+    .Leads {
+        padding: 0 60px;
+    }
+
+    .leaders {
+        font-size: 35px;
+    }
+
+    .next_btn, .back_btn {
+        width: 45px;
+        padding: 12px;
+    }
+
+    .slider ul {
+        padding: 12px;
+    }
+
+    .slider ul li {
+        width: 33.33%; /* Show 3 slides per page */
+        padding: 12px;
+    }
+
+    .slide {
+        padding: 18px;
+        text-align: center; /* Center align text within each slide */
+    }
+
+    .slide img {
+        width: 130px;
+        margin: 0 auto; /* Center image within each slide */
+    }
+
+    .user-info {
+        text-align: center; /* Center align user info */
+    }
+}
+
+
+@media(max-width:768px){
+    .Leads {
+        padding: 0 40px;
+    }
+
+    .leaders {
+        font-size: 30px;
+    }
+
+    .next_btn, .back_btn {
+        width: 40px;
+        padding: 10px;
+    }
+
+    .slider ul {
+        padding: 10px;
+    }
+
+    .slider ul li {
+        width: 50%; 
+        padding: 10px;
+        /* text-align: center; */
+    }
+
+    .slide {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .slide img {
+        width: 120px;
+        margin: 0 auto;
+    }
+    .user-info{
+        text-align: center;
+    }
+}
+
+/* Styles for Screens 480px and Smaller */
+@media (max-width: 480px) {
+    .Leads {
+        padding: 0 20px;
+    }
+
+    .leaders {
+        font-size: 24px;
+    }
+
+    .next_btn, .back_btn {
+        width: 35px;
+        padding: 8px;
+    }
+    .slider{
+        overflow: hidden;
+    }
+    .slider ul {
+        display: flex;
+        width: 100%; 
+        transition: transform 0.5s ease-in-out; 
+    }
+
+    .slider ul li {
+        flex: 0 0 100%; 
+        box-sizing: border-box;
+        padding: 8px;
+       
+    }
+
+    .slide {
+        padding: 10px;
+        text-align: center; 
+    }
+
+    .slide img {
+        width: 100px;
+        margin: 0 auto; 
+    }
+
+    .user-info {
+        text-align: center; 
+    }
+}
