@@ -25,6 +25,7 @@
 }
 .slider{
     overflow: hidden;
+    width: 100%;
 }
 .slider ul{
     display: flex;
@@ -32,17 +33,18 @@
     /* height: 400px; */
     overflow-x:hidden ;
     transition: 0.5s;
-    padding: 15px 25px;
-    /* transform: translateX(-33%);/ */
+    padding: 15px 0px;
+    /* transform: translateX(-25%); */
 }
 .slider ul li{
     list-style: none;
-    width: 30%;
+    width: 33.33%;
+    /* flex-shrink: 0; */
     /* font-weight: bold; */
     padding: 12px;
 }
 .slide{
-    box-shadow: 0 0 20px #FF4500;
+    /* box-shadow: 0 0 20px #FF4500; */
     padding: 20px;
     border-radius: 10px;
     color: #0b0000;
@@ -71,124 +73,86 @@
 }
 /* responsive */
 
-@media (max-width: 1024px) {
-    .Leads {
-        padding: 0 60px;
+@media (max-width:800px) {
+    .Leads{
+        padding: 0px 30px;
     }
-
-    .leaders {
-        font-size: 35px;
-    }
-
-    .next_btn, .back_btn {
-        width: 45px;
-        padding: 12px;
-    }
-
-    .slider ul {
-        padding: 12px;
-    }
-
-    .slider ul li {
-        width: 33.33%; /* Show 3 slides per page */
-        padding: 12px;
-    }
-
-    .slide {
-        padding: 18px;
-        text-align: center; /* Center align text within each slide */
-    }
-
-    .slide img {
-        width: 130px;
-        margin: 0 auto; /* Center image within each slide */
-    }
-
-    .user-info {
-        text-align: center; /* Center align user info */
-    }
-}
-
-
-@media(max-width:768px){
-    .Leads {
-        padding: 0 40px;
-    }
-
-    .leaders {
-        font-size: 30px;
-    }
-
-    .next_btn, .back_btn {
-        width: 40px;
+    .next_btn , .back_btn{
         padding: 10px;
-    }
-
-    .slider ul {
-        padding: 10px;
-    }
-
-    .slider ul li {
-        width: 50%; 
-        padding: 10px;
-        /* text-align: center; */
-    }
-
-    .slide {
-        padding: 15px;
-        text-align: center;
-    }
-
-    .slide img {
-        width: 120px;
-        margin: 0 auto;
+        width: 35px;
     }
     .user-info{
+        /* display: flex; */
+        align-items: center;
+        margin-bottom: 20px;
+        font-size: 15px;
+
+    }
+    .user-info h3{
+        color: #FF4500;
+        font-size: 12px;
+    }
+    .slide{
+        padding: 10px;
+
+    }
+    .slide img{
+        width: 90px;
+        border: 3px solid orangered;
+    }
+    
+}
+
+/* responsive for 400-600px screens */
+@media (max-width:600px) {
+    .Leads{
+        padding: 0px 20px;
+    }
+    .next_btn , .back_btn{
+        padding: 8px;
+        width: 30px;
+    }
+    .user-info{
+        margin-bottom: 15px;
+        font-size: 12px;
         text-align: center;
+    }
+    .user-info h3{
+        font-size: 14px;
+        text-align: center;
+    }
+    .slide{
+        padding: 8px;
+    }
+    .slide img{
+        width: 80px;
+        border: 3px solid orangered;
+    }
+    .slider ul{
+        width: 900%; /* Ensure it accommodates all slides */
+        transition: 0.5s ease;
+    }
+    .slider ul li{
+        width: 100%; /* Show only one slide at a time */
     }
 }
 
-/* Styles for Screens 480px and Smaller */
-@media (max-width: 480px) {
-    .Leads {
-        padding: 0 20px;
+@media (max-width:400px) {
+    /* Same styles but adjusted for even smaller screens */
+    .Leads{
+        padding: 0px 15px;
     }
-
-    .leaders {
-        font-size: 24px;
+    .next_btn , .back_btn{
+        padding: 7px;
+        width: 25px;
     }
-
-    .next_btn, .back_btn {
-        width: 35px;
-        padding: 8px;
+    .user-info{
+        font-size: 10px;
     }
-    .slider{
-        overflow: hidden;
+    .user-info h3{
+        font-size: 12px;
     }
-    .slider ul {
-        display: flex;
-        width: 100%; 
-        transition: transform 0.5s ease-in-out; 
-    }
-
-    .slider ul li {
-        flex: 0 0 100%; 
-        box-sizing: border-box;
-        padding: 8px;
-       
-    }
-
-    .slide {
-        padding: 10px;
-        text-align: center; 
-    }
-
-    .slide img {
-        width: 100px;
-        margin: 0 auto; 
-    }
-
-    .user-info {
-        text-align: center; 
+    .slide img{
+        width: 70px;
     }
 }

@@ -20,18 +20,20 @@ export default function Leads() {
     let tx=0;
   const slideForward=()=>{
         
-    if(tx>-50){
-      tx-=33;
+    if(tx>-150){
+      tx-=33.33;
     }
     slider.current.style.transform=`translateX(${tx}%)`
 
   }
   const slideBackward=()=>{
     if(tx<0){
-      tx+=33;
+      tx+=33.33;
     }
     slider.current.style.transform=`translateX(${tx}%)`
   }
+  
+  
 
   return (
     <div className="Leads">
