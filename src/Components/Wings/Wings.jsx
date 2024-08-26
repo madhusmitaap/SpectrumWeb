@@ -1,7 +1,6 @@
 import React from "react";
 import { IoHardwareChip } from "react-icons/io5";
 import { RiComputerFill } from "react-icons/ri";
-
 import { SlNote } from "react-icons/sl";
 
 const WingsData = [
@@ -21,7 +20,7 @@ const WingsData = [
     ),
     link: "#",
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-    aosDelay: "500",
+    aosDelay: "300",
   },
   {
     name: "Design",
@@ -30,7 +29,7 @@ const WingsData = [
     ),
     link: "#",
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-    aosDelay: "700",
+    aosDelay: "300",
   },
 ];
 
