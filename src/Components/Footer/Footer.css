@@ -1,5 +1,5 @@
 .footer {
-  border-top: 1px solid orange;
+  border-top: 1px solid #FF4500;
     background-color: black;
     color: #fff;
     padding: 20px 0;
@@ -71,7 +71,7 @@
   }
 
 .footer-section:hover{
-    color: orange;
+    color: #FF4500;
     transition: 0.3s;
   }
   
@@ -99,12 +99,12 @@
   }
 
   .social-icons a:hover{
-    color: orange;
+    color: #FF4500;
   }
   
   .footer-bottom {
     margin-top: 10px;
-    border-top: 0.5px solid orange;
+    border-top: 0.5px solid #FF4500;
     padding-top: 10px;
     width: 100%;
     text-align: center;
