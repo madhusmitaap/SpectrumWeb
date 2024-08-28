@@ -3,7 +3,7 @@ import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import Wings from "./Components/Wings/Wings";
-import Events from "./Components/Events/Events";
+import Event from "./Components/Event/Event";
 import Project  from "./Components/Project/Project";
 import Leads from "./Components/Leads/Leads";
 import OurTeam from "./Components/OurTeam/OurTeam";
@@ -20,7 +20,7 @@ return (
     <Navbar />
     <Hero  />
     <Wings  />
-    <Events  />
+    <Event  />
     <Project  />
     <Leads  />
     <OurTeam  />
