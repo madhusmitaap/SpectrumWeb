@@ -4,6 +4,8 @@ import Project_1 from "../../assets/Project_1.jpg";
 import icon from "../../assets/icon.webp";
 const project = () => {
   return (
+    <div className="py-12 sm:py-0 dark:bg-black
+    dark:text-white duration-300 overflow-hidden">
     <div className="project">
       <div className="project-title">
         <h1>PROJECTS</h1>
@@ -66,7 +68,7 @@ const project = () => {
           </div>
           </div>
         </div>
-      
+      </div>
     
   );
 };

@@ -61,6 +61,8 @@ const Event = () => {
     pauseOnFocus: true,
   };
   return (
+    <div className="py-12 sm:py-0 dark:bg-black
+      dark:text-white duration-300 overflow-hidden">
     <div className="container">
       <div>
         <h1
@@ -112,6 +114,7 @@ const Event = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

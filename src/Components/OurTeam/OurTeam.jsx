@@ -35,6 +35,16 @@ const teamMembers = [
   </div>,
   },
   {
+    name: 'Madhusmita Pradhan',
+    role: 'Frontend Devloper',
+    image: "https://i.postimg.cc/sgKGmGhR/madhusmita.webp",
+    description: <div className="social-icons2">
+   <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin size={23} /></a>
+   <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"> <FaTwitter size={23} /></a>
+    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram size={23} /></a> 
+  </div>,
+  },
+  {
     name: 'Ankita Sunani',
     role: 'Frontend Devloper',
     image: "https://i.postimg.cc/sxSZ4npn/sunani.webp",
@@ -64,22 +74,15 @@ const teamMembers = [
     <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram size={23} /></a> 
   </div>,
   },
-  {
-    name: 'Madhusmita Pradhan',
-    role: 'Frontend Devloper',
-    image: "https://i.postimg.cc/sgKGmGhR/madhusmita.webp",
-    description: <div className="social-icons2">
-   <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin size={23} /></a>
-   <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"> <FaTwitter size={23} /></a>
-    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram size={23} /></a> 
-  </div>,
-  },
+ 
   
   // Add more team members as needed
 ];
 
 const OurTeam = () => {
   return (
+    <div className="py-12 sm:py-0 dark:bg-black
+    dark:text-white duration-300 overflow-hidden">
     <section className="team-section">
       <div className="heading"><h2>MEET OUR TEAM</h2></div>
       <div className="team-grid">
@@ -93,6 +96,7 @@ const OurTeam = () => {
         ))}
       </div>
     </section>
+    </div>
   );
 };
 

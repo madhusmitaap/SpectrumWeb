@@ -36,6 +36,8 @@ const WingsData = [
 const Wings = () => {
   return (
     <>
+     <div div className="py-12 sm:py-0 dark:bg-black
+      dark:text-white duration-300 overflow-hidden">
       <div className="container py-14 sm:min-h-[600px]">
         <div>
           <h1
@@ -57,16 +59,12 @@ const Wings = () => {
                 <div className="grid place-items-center"> {data.icon}</div>
                 <h1 className="text-2xl">{data.name}</h1>
                 <p>{data.description}</p>
-                {/* <a
-                  href={data.link}
-                  className="inline-block text-lg font-semibold py-3 text-primary group-hover:text-black duration-300"
-                >
-                  Learn More
-                </a> */}
+                
               </div>
             ))}
           </div>
         </div>
+      </div>
       </div>
     </>
   );
