@@ -4,26 +4,7 @@ import './OurTeam.css';
 import { FaLinkedin, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const teamMembers = [
-  {
-    name: 'Sarans Mishra',
-    role: 'FullStack Devloper',
-    image: 'https://via.placeholder.com/150',
-    description: <div className="social-icons2">
-   <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin size={23} /></a>
-   <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"> <FaTwitter size={23} /></a>
-    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram size={23} /></a> 
-  </div>,
-  },
-  {
-    name: 'Shruti Nayak',
-    role: 'FullStack Devloper',
-    image: 'https://via.placeholder.com/150',
-    description: <div className="social-icons2">
-   <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin size={23} /></a>
-   <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"> <FaTwitter size={23} /></a>
-   <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram size={23} /></a> 
-  </div>,
-  },
+ 
   {
     name: 'Ankita Sahu',
     role: 'Frontend Devloper',
@@ -84,7 +65,8 @@ const OurTeam = () => {
     <div className="py-12 sm:py-0 dark:bg-black
     dark:text-white duration-300 overflow-hidden">
     <section className="team-section">
-      <div className="heading"><h2>MEET OUR TEAM</h2></div>
+    < div className="team-title">
+    <h1>MEET OUR TEAM</h1>
       <div className="team-grid">
         {teamMembers.map((member, index) => (
           <div key={index} className="team-member">
@@ -94,6 +76,7 @@ const OurTeam = () => {
             <p>{member.description}</p>
           </div>
         ))}
+      </div>
       </div>
     </section>
     </div>

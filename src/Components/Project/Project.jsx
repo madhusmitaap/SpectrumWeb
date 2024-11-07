@@ -62,7 +62,7 @@ const project = () => {
             */}
           </div>
           <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <div className="flex gap-6">
+          <div className="flex gap-3">
           <button className="primary-btn" ><b>Show More</b></button>
           
           </div>

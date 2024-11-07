@@ -38,7 +38,7 @@ const Wings = () => {
     <>
      <div div className="py-12 sm:py-0 dark:bg-black
       dark:text-white duration-300 overflow-hidden">
-      <div className="container py-14 sm:min-h-[600px]">
+      <div className="container py-14 sm:min-h-[400px]">
         <div>
           <h1
             data-aos="fade-up"

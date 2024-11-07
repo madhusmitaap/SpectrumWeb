@@ -63,7 +63,7 @@ const Event = () => {
   return (
     <div className="py-12 sm:py-0 dark:bg-black
       dark:text-white duration-300 overflow-hidden">
-    <div className="container">
+    <div className="container py-14 sm:min-h-[400px]">
       <div>
         <h1
           data-aos="fade-up"
@@ -72,8 +72,8 @@ const Event = () => {
           EVENTS
         </h1>
         <div
-          className="overflow-hidden rounded-3xl min-h-[550px]
-        sm:min-h-[650px]  flex justify-center items-center"
+          className="overflow-hidden rounded-3xl min-h-[450px]
+        sm:min-h-[450px]  flex justify-center items-center"
         >
           <div className="container pb-8 sm:pb-0">
             {/*Event Section*/}
@@ -83,7 +83,7 @@ const Event = () => {
                   <div className="grid grid-cols-1 sm:grid-cols-2">
                     {/*text content*/}
                     <div
-                      className="flex flex-col justify-center gap-4 sm:pl-3 pt-12 
+                      className="flex flex-col justify-center gap-3 sm:pl-3 pt-12 
                     sm:pt-9 text-center sm:text-left order-2 
                     sm:order-1 relative z-10"
                     >

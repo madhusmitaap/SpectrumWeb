@@ -82,6 +82,9 @@ export default function Leads() {
     <div className="py-12 sm:py-0 dark:bg-black
     dark:text-white duration-300 overflow-hidden">
     <div className="carousel-container">
+    < div className="Leads-title">
+        <h1>LEADS</h1>
+        
       <Carousel
         showThumbs={false}
         showStatus={false}
@@ -128,8 +131,10 @@ export default function Leads() {
               ))}
             </div>
           </div>
+          
         ))}
       </Carousel>
+    </div>
     </div>
     </div>
   );

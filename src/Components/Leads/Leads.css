@@ -5,6 +5,13 @@
     margin: 0 auto;
     position: relative; 
   }
+
+  .Leads-title h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    padding: 5%;
+}
   
   
   .card-group {
