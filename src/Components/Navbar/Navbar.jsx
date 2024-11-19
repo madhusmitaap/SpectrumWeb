@@ -13,17 +13,17 @@ const NavLinks = [
   },
   {
     id: 2,
-    name: "Products",
+    name: "Domains",
     link: "#",
   },
   {
     id: 3,
-    name: "Pricing",
+    name: "Events",
     link: "#",
   },
   {
     id: 4,
-    name: "Contact",
+    name: "Notice",
     link: "#",
   },
 ];
