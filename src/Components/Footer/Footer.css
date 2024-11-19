@@ -70,6 +70,16 @@
     padding: 0 20px;
   }
 
+  .footer-section1 {
+    flex: 1;
+    padding: 0 20px;
+  }
+  .footer-section1 h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
 .footer-section:hover{
     color: #FF4500;
     transition: 0.3s;
@@ -109,4 +119,5 @@
     width: 100%;
     text-align: center;
   }
+  
     
