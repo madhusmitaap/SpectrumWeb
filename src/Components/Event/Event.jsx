@@ -103,7 +103,7 @@ const Event = () => {
                         <img
                           src={data.img}
                           className="w-[600px] h-[500px] sm:h-[450px]
-                            sm:scale-105 lg:scale-110 object-contain mx-5 drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
+                            sm:scale-105 lg:scale-110 object-contain mx-auto drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
                         />
                       </div>
                     </div>

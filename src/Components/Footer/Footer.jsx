@@ -13,7 +13,7 @@ const Footer = () => {
             <p>Phone: +91 6372761561</p>
             
           
-          {/* <div className="footer-section1"> */}
+         
             <h3>Follow Us</h3>
             <div className="social-icons">
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"> <FaTwitter size={19} /></a>
