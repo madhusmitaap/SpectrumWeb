@@ -1,5 +1,5 @@
 import React from "react";
-import Robo from "../../assets/robo1.png";
+import Robo from "../../assets/girlrobo.png";
 
 
 const Hero = () => {
@@ -11,7 +11,7 @@ const Hero = () => {
 
           {/*hero text section*/}
           <div className="order-2 sm:order-1 space-y-5 lg:pr-20">
-             <h1 className="text-4xl font-semibold">
+             <h1 className="text-6xl font-semibold">
               SPECTRUM {" "}</h1>
                 <h1 className="text-4xl font-semibold">
               <span className="bg-clip-text text-transparent bg-gradient-to-r

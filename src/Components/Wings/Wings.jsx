@@ -31,12 +31,23 @@ const WingsData = [
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
     aosDelay: "300",
   },
+  {
+    name: "Mechatronics",
+    icon: (
+      <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
+    ),
+    link: "#",
+    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    aosDelay: "300",
+  },
 ];
 
 const Wings = () => {
   return (
     <>
-      <div className="container py-14 sm:min-h-[600px]">
+     <div div className="py-12 sm:py-0 dark:bg-black
+      dark:text-white duration-300 overflow-hidden">
+      <div className="container py-14 sm:min-h-[400px]">
         <div>
           <h1
             data-aos="fade-up"
@@ -46,7 +57,7 @@ const Wings = () => {
           </h1>
 
           {/* card section */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-10">
             {WingsData.map((data, index) => (
               <div
                 key={index}
@@ -57,16 +68,12 @@ const Wings = () => {
                 <div className="grid place-items-center"> {data.icon}</div>
                 <h1 className="text-2xl">{data.name}</h1>
                 <p>{data.description}</p>
-                {/* <a
-                  href={data.link}
-                  className="inline-block text-lg font-semibold py-3 text-primary group-hover:text-black duration-300"
-                >
-                  Learn More
-                </a> */}
+                
               </div>
             ))}
           </div>
         </div>
+      </div>
       </div>
     </>
   );

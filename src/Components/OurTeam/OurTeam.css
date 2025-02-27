@@ -1,9 +1,16 @@
 /* src/components/Team.css */
 
 .team-section {
-    padding: 2rem;
+    padding:2%;
     text-align: center;
   }
+
+  .team-title h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    padding: 5%;
+}
   
   .team-grid {
     display: grid;
@@ -31,7 +38,7 @@
     text-align: center;
     font-weight: 600;
     font-size: 40px;
-    padding-bottom: 30px;
+   
   }
 
   .team-member h3{
