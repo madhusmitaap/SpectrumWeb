@@ -1,6 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
-import Image1 from "../../assets/SpaceCity5.jpeg";
+import Image1 from "../../assets/SIDimg.png";
+import Image2 from "../../assets/hacktoberimg.png";
+import Image3 from "../../assets/perceptionimg.png";
+
 
 const EventData = [
   {
@@ -12,39 +15,39 @@ const EventData = [
   },
   {
     id: 2,
-    img: Image1,
+    img: Image2,
     title: "EVENT 2",
     title1:
       " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ut!",
   },
   {
     id: 3,
-    img: Image1,
+    img: Image3,
     title: "EVENT 3",
     title1:
       " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ut!",
   },
-  {
-    id: 4,
-    img: Image1,
-    title: "EVENT 4",
-    title1:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ut!",
-  },
-  {
-    id: 5,
-    img: Image1,
-    title: "EVENT 5",
-    title1:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ut!",
-  },
-  {
-    id: 6,
-    img: Image1,
-    title: "EVENT 6",
-    title1:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ut!",
-  },
+  // {
+  //   id: 4,
+  //   img: Image1,
+  //   title: "EVENT 4",
+  //   title1:
+  //     " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ut!",
+  // },
+  // {
+  //   id: 5,
+  //   img: Image1,
+  //   title: "EVENT 5",
+  //   title1:
+  //     " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ut!",
+  // },
+  // {
+  //   id: 6,
+  //   img: Image1,
+  //   title: "EVENT 6",
+  //   title1:
+  //     " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ut!",
+  // },
 ];
 
 const Event = () => {
@@ -102,7 +105,7 @@ const Event = () => {
                       <div>
                         <img
                           src={data.img}
-                          className="w-[600px] h-[500px] sm:h-[450px]
+                          className="w-[600px] h-[600px] sm:h-[450px]
                             sm:scale-105 lg:scale-110 object-contain mx-auto drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
                         />
                       </div>

@@ -31,6 +31,15 @@ const WingsData = [
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
     aosDelay: "300",
   },
+  {
+    name: "Mechatronics",
+    icon: (
+      <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
+    ),
+    link: "#",
+    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    aosDelay: "300",
+  },
 ];
 
 const Wings = () => {
@@ -48,7 +57,7 @@ const Wings = () => {
           </h1>
 
           {/* card section */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-10">
             {WingsData.map((data, index) => (
               <div
                 key={index}

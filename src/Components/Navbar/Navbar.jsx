@@ -9,17 +9,17 @@ const NavLinks = [
   {
     id: 1,
     name: "Home",
-    link: "#",
+    link: "#Hero",
   },
   {
     id: 2,
     name: "Domains",
-    link: "#",
+    link: "#Wings",
   },
   {
     id: 3,
     name: "Events",
-    link: "#",
+    link: "#Event",
   },
   {
     id: 4,
@@ -51,7 +51,7 @@ const Navbar = () => {
                   <li key={id} className="py-4">
                     <a
                       href={link}
-                      className="text-xl font-semibold hover:text-primary py-2 hover:border-b-2 hover:border-secondary transition-colors duration-500"
+                      className="text-xl font-semibold scroll-behavior: smooth hover:text-primary py-2 hover:border-b-2 hover:border-secondary transition-colors duration-500"
                     >
                       {name}
                     </a>
