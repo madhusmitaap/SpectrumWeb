@@ -16,7 +16,7 @@ const Hero = () => {
                 <h1 className="text-4xl font-semibold">
               <span className="bg-clip-text text-transparent bg-gradient-to-r
                from-primary to-secondary">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ut!
+                INNOVATED - ELEVATED - ACCELERATED
                </span>
             </h1>
           </div>

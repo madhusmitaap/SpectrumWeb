@@ -8,9 +8,9 @@ const Footer = () => {
       <div div className="container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>Contact</h3>
-            <p>Email: sahoolagnajit1@gmail.com</p>
-            <p>Phone: +91 6372761561</p>
+            <h3>CONTACT</h3>
+            <p>Email: dev.spectrum.cetb@gmail.com</p>
+  
             
           
          
@@ -23,7 +23,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2024 SPECTRUM All rights reserved.</p>
+          <p>&copy; SPECTRUM CLUB OUTR-B All rights reserved.</p>
         </div>
        </div>
       

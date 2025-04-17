@@ -9,23 +9,25 @@ const EventData = [
   {
     id: 1,
     img: Image1,
-    title: "EVENT 1",
+    title: "SID",
     title1:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ut!",
+      " Spectrum Internship Drive is an opportunity to help you not just succeed but thrive in your journey and personal growth. ",
   },
   {
     id: 2,
     img: Image2,
-    title: "EVENT 2",
+    title: "HACKTOBER FEST",
     title1:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ut!",
+      "A month-long open-source event where developers worldwide collaborate on projects, sharpen their skills, and expand the community. Both experienced coders and beginners can join by sharing projects or contributing via pull requests."
+      
   },
   {
     id: 3,
     img: Image3,
     title: "EVENT 3",
     title1:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ut!",
+      "Perception is the annual three-day tech fest of OUTR, Bhubaneswar, featuring a mix of technical and fun events. It brings together students from across the state to compete, collaborate, and showcase their skills."
+
   },
   // {
   //   id: 4,

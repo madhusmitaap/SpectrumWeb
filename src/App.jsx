@@ -6,7 +6,6 @@ import Wings from "./Components/Wings/Wings";
 import Event from "./Components/Event/Event";
 import Project  from "./Components/Project/Project";
 import Leads from "./Components/Leads/Leads";
-import OurTeam from "./Components/OurTeam/OurTeam";
 import Footer from "./Components/Footer/Footer";
 
 
@@ -23,7 +22,6 @@ return (
     <Event  />
     <Project  />
     <Leads  />
-    <OurTeam  />
     <Footer  />
 
 
